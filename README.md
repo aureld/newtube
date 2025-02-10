@@ -8,8 +8,6 @@ This is a YouTube clone project built using React, Next.js, and TailwindCSS. The
 bun run dev:all
 ```
 
-access from: https://marmot-hip-presently.ngrok-free.app/
-
 ## DB migrations
 
 - push schema changes:
@@ -26,7 +24,9 @@ bunx drizzle-kit studio
 
 ## Stack
 
-- Auth: Clerk, webhook retry: svix
+- Auth: Clerk, webhook
 - DB: Neon / Postgres
 - ORM: Drizzle
-- webhook testing (dev): Ngrok
+- auth webhooks: (dev) Ngrok, retry: svix
+- RPC:tRPC
+- redis, rate limiting: upstash
