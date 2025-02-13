@@ -30,3 +30,4 @@ bunx drizzle-kit studio
 - auth webhooks: (dev) Ngrok, retry: svix
 - RPC:tRPC
 - redis, rate limiting: upstash
+- Video hosting: Mux
