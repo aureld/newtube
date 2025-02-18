@@ -31,3 +31,4 @@ bunx drizzle-kit studio
 - RPC:tRPC
 - redis, rate limiting: upstash
 - Video hosting: Mux
+- thumbnails: uploadThing
